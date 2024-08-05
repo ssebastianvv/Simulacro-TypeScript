@@ -45,7 +45,8 @@ form.addEventListener('submit', async (event: Event) => {
             country: countryName,
             image: imagePlace,
             temperature: temperature,
-            cityDescription: cityDesc
+            cityDescription: cityDesc,
+            forEach: undefined// no se 
         };
 
         if (cityId) {

@@ -5,9 +5,12 @@ const url = 'https://reqres.in/api/';
 const loginForm = document.querySelector("#loginForm") as HTMLFormElement;
 const emailUser = document.querySelector("#emailUser") as HTMLInputElement;
 const passwordUser = document.querySelector("#passwordUser") as HTMLInputElement;
+const loading =document.querySelector("#loading") as HTMLDivElement
 
 loginForm.addEventListener("submit", async (event : Event) => {
   event.preventDefault();
+
+  loading.style.display = "flex";
 
   const user = {
     email : emailUser.value,
