@@ -1,0 +1,38 @@
+{
+  "cities": [
+    {
+      "id": "dc7d",
+      "city": "Barcelona",
+      "country": "España",
+      "image": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/501000/501680-spain.jpg",
+      "date": "2024-08-02T21:30:08.777Z",
+      "temperature": 296.23,
+      "cityDescription": "N/A"
+    },
+    {
+      "id": "01da",
+      "city": "Medellín",
+      "country": "Colombia",
+      "image": "https://media-edg.barcelona.cat/wp-content/uploads/2022/05/18094735/enes-f-DvU93UhTs-unsplash-760x428.jpg",
+      "date": "2024-08-02T21:32:53.233Z",
+      "temperature": 300.59,
+      "cityDescription": "n"
+    },
+    {
+      "id": "fe68",
+      "city": "Barcelona",
+      "country": "españa",
+      "image": "https://media-edg.barcelona.cat/wp-content/uploads/2022/05/18094735/enes-f-DvU93UhTs-unsplash-760x428.jpg",
+      "temperature": 298.99,
+      "cityDescription": "Allá juega el FC Barcelona"
+    },
+    {
+      "id": "a0a5",
+      "city": "medellin",
+      "country": "Colombia",
+      "image": "https://static.nationalgeographicla.com/files/styles/image_3200/public/nationalgeographic2711064_0.webp?w=760&h=507",
+      "temperature": 297.97,
+      "cityDescription": "medellin"
+    }
+  ]
+}

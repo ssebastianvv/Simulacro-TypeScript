@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../scss/style.css">
+    <title>Home</title>
+</head>
+<body>
+    <header>
+        <section class="headerTitle-container">
+          <h1 class="headerTitle">Riwi Clima</h1>
+        </section>
+        <nav>
+          <ul class="nav-list">
+            <li><a href="">Home</a></li>
+            <button id="logout-button">Salir</button>
+          </ul>
+        </nav>
+      </header>
+      
+      <main class="addCity-main">
+        <h2 class="addCity-title">Agregar Ciudad</h2>
+  
+        <section class="form-container">
+          <form id="addCity-form" action="">
+             <!-- Input oculto con el ID para actualizar -->
+            <input 
+              type="hidden" 
+              id="city-id" 
+              value=""
+            />
+
+            <input
+              type="text"
+              class="addCity-input"
+              id="new-city"
+              placeholder="Ciudad"
+            />
+            <input
+              type="text"
+              class="addCity-input"
+              id="new-country"
+              placeholder="País"
+            />
+            <input
+              type="text"
+              class="addCity-input"
+              id="new-img"
+              placeholder="Imagen"
+            />
+            <textarea
+              class="addCity-textarea"
+              id="newCity-description"
+              placeholder="Descripción"
+            ></textarea>
+            <div class="button-container">
+              <button type="submit" class="addCity-button">Agregar</button>
+            </div>
+          </form>
+        </section>
+
+        <!-- Contenedor donde se agregará las cards de las ciudades -->
+        <section id="card-section">
+
+        </section>
+      </main>
+      <script type="module" src="/src/controllers/home.ts"></script>
+      <script type="module" src="/src/controllers/add.city.ts"></script>
+</body>
+</html>
